@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write # Allows pushing commits
+  pages: write # Allows updating the GitHub Pages site
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
