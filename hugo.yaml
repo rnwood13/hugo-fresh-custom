@@ -41,7 +41,7 @@ params:
     # Button text
     buttontext: Contact Us
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "#section5"
     # Hero image (from static/images/___)
     image: logos/talis-analytics.svg
     # Footer logos (from static/images/logos/clients/*.svg)
@@ -61,13 +61,15 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Services
-    url: /
+    url: "/#section1"
   - title: Technologies
-    url: /
+    url: "/#section2"
   - title: About
-    url: /
+    url: /about
+  - title: Blog
+    url: /blog
   - title: Contact Us
-    url: /
+    url: "/#section5"
     button: true
   section1:
     title: Great power comes
@@ -128,8 +130,8 @@ params:
     title: Drop us a line or two
     subtitle: We'd love to hear from you
     buttonText: Send Message
-    # action: https://formspree.io/f/<form_id>
-    # method: POST
+    action: https://formkeep.com/f/c63c153681af
+    method: POST
   footer:
     # Logo (from static/images/logos/___)
     logo: talis-analytics-light.svg
@@ -161,8 +163,8 @@ params:
           link: /
         - text: Our roadmap
           link: /
-        - text: AGB
-          link: /agb
+        - text: About
+          link: /about
       column2:
         title: "Docs"
         links:
