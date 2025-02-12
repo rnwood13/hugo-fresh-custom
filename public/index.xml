@@ -19,7 +19,7 @@
       <link>http://localhost:1313/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/</guid>
-      <description>&lt;h3 class=&#34;title is-3&#34;&gt;Blog Posts&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./first&#34;&gt;First Blog Post&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./second&#34;&gt;Second Blog Post&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;!-- Flex Grid Container --&gt;&#xA;&lt;div class=&#34;blog-cards&#34; style=&#34;display: flex; flex-wrap: wrap; gap: 20px;&#34;&gt;&#xA;  &lt;!-- First Card --&gt;&#xA;  &lt;a href=&#34;./first&#34; class=&#34;card&#34; style=&#34;flex: 1 1 200px; max-width: 400px; text-decoration: none;&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/blog1.jpg&#34; alt=&#34;First Blog Post&#34; style=&#34;width: 100%; height: auto;&#34;&gt;&#xA;    &lt;div class=&#34;card-content&#34;&gt;&#xA;      &lt;h3&gt;First Blog Post&lt;/h3&gt;&#xA;      &lt;p&gt;A short summary for the first blog post goes here.&lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;!-- Second Card --&gt;&#xA;  &lt;a href=&#34;./second&#34; class=&#34;card&#34; style=&#34;flex: 1 1 200px; max-width: 400px; text-decoration: none;&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/blog2.jpg&#34; alt=&#34;Second Blog Post&#34; style=&#34;width: 100%; height: auto;&#34;&gt;&#xA;    &lt;div class=&#34;card-content&#34;&gt;&#xA;      &lt;h3&gt;Second Blog Post&lt;/h3&gt;&#xA;      &lt;p&gt;A short summary for the second blog post goes here.&lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;  &lt;!-- Add more cards as needed --&gt;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>
