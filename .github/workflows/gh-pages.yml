@@ -32,3 +32,4 @@ jobs:
           publish_dir: ./public
           # Optionally, specify the target branch:
           publish_branch: gh-pages
+          cname: hobcat.com
