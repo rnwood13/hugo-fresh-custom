@@ -1,7 +1,11 @@
 ---
 title: Blog Post 2
+date: 2025-02-12
+draft: false
 sidebar: false
 include_footer: true
+image: /images/blog/blog2.jpg
+summary: A short summary for the second blog post goes here.
 ---
 
 [Back to Blog](/blog)

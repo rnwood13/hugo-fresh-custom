@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+{{ partial "single/single.html" . }}
+<div class="container content" style="margin-top: -60px; margin-bottom: 140px;">
+    <div class="blog-cards"
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+        {{ range .Pages }}
+        <a href="{{ .RelPermalink }}" class="card" style="text-decoration: none;">
+            <img src="{{ .Params.image | default "/images/blog/blog-default.svg" }}" alt="{{ .Title }}"
+                style="width: 100%; height: auto;">
+            <div class="card-content">
+                <h3>{{ .Title }}</h3>
+                <p>{{ .Summary }}</p>
+            </div>
+        </a>
+        {{ else }}
+        <p>No blog posts found.</p>
+        {{ end }}
+    </div>
+    {{ .Content }}
+</div>
+
+{{ if .Params.include_footer }}
+{{ partial "footer.html" . }}
+{{ end }}
+
+{{ if .Params.sidebar }}
+{{ partial "single/sidebar.html" . }}
+{{ end }}
+
+{{ end }}
